@@ -1,0 +1,6 @@
+[webservers]
+54.194.21.15
+
+[webservers:vars]
+ansible_user = "ec2-user"
+ansible_ssh_private_key_file = "~/.ssh/courtney123"
